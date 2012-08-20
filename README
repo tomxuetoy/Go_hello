@@ -1,0 +1,9 @@
+#These commands are for 32-bit builds
+#Replace the "8" with "6" in all examples to build for 64.  
+ 
+#Compile...
+8g test.go
+#Link
+8l test.8
+#And run..
+./8.out
